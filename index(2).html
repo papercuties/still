@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bodybodybody</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100vh;
+        }
+
+        .content {
+            margin: 20px;
+        }
+
+        h1, p, a {
+            font-size: 36px;
+            font-weight: normal;
+        }
+
+        .links {
+            margin-top: 20px;
+        }
+
+        .links a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            margin: 5px 0;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        .player {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .player audio {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>bodybodybody<br>papercuties</h1>
+
+        <div class="links">
+            <p>listen:</p>
+            <a href="https://soundcloud.com/papercuties/bodybodybody" target="_blank">soundcloud</a>
+            <a href="https://papercuties.bandcamp.com" target="_blank">bandcamp</a>
+            <a href="https://youtu.be/xVgZlIR5qAg?si=MUL7KmXutqyhiAJc" target="_blank">youtube (M/V)</a>
+            <a href="https://www.instagram.com/reel/DOgDhn9jJaE" target="_blank">instagram (M/V)</a>
+        </div>
+    </div>
+
+    <div class="player">
+        <audio controls>
+            <source src="bodybodybodymp3.mp3" type="audio/mp3">
+            Your browser does not support the audio playback functionality.
+        </audio>
+    </div>
+</body>
+</html>
+
